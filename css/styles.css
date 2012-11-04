@@ -1,0 +1,148 @@
+#victim_memorial {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+}
+
+
+#prev {
+float: left;
+position: relative;
+top: -125px;
+height: 32px;
+width: 32px;
+left: 100px;
+background-image: url('images/arrows/prev_arrow.png'); 
+}
+
+#next {
+float: right;
+position: relative;
+top: -125px;
+right: 100px;
+height: 32px;
+width: 32px;
+background-image: url('images/arrows/next_arrow.png'); 
+}
+
+#victim_memorial #victim_nav {
+}
+
+#victim_memorial #victim_nav ul {
+    width: 31%;
+    margin: 1%;
+    float: left;
+}
+
+#victim_memorial #victim_nav li {
+    text-align: center;
+    background-color: #fff;
+}
+
+#victim_memorial #victim_header {
+    padding-top: 5px;
+}
+
+#victim_memorial #left_container {
+    float: left;
+    width: 25%;
+}
+
+    #victim_memorial #victim_sidebar {
+        border: solid 1px #CCCCCC;
+        overflow-y: scroll;
+    }
+
+#victim_memorial #right_container {
+    width: 70%;
+    float: right;
+}
+
+    #victim_memorial #victim_info {
+        text-align: center; 
+    }
+
+    #victim_memorial #victim_pics #galleria{
+        margin: 0px auto;
+    }
+
+#victim_memorial .form-left-col {
+        margin: 0px auto;
+        width: 75%;
+}
+
+#victim_memorial .title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#victim_memorial ul {
+    list-style-type: none;
+    padding-left: 0px;
+    margin-top: 0px;
+}
+
+#victim_memorial #victim_nav li a {
+    text-decoration: none;
+    display: block;
+    color: #000000;
+    border-bottom: solid 1px #CCCCCC;
+    padding: 8px;
+}
+
+#victim_memorial #victim_nav li a:hover {
+    background-color: #EE7600;
+    color: #000;
+}
+
+#victim_memorial label {
+    display: block;
+}
+
+#victim_memorial .form-left-col label {
+    float: left;
+    font-weight: bold;
+}
+
+#victim_memorial .form-left-col span {
+    float: right;
+}
+
+#victim_memorial .form-left-col span.short {
+    margin: 0px;
+}
+
+#victim_memorial .form-left-col span.long {
+}
+
+#victim_memorial .form-left-col .row {
+    padding: 10px;
+}
+
+#victim_memorial button {
+    padding: 6px;
+}
+
+#victim_page #victim_pics li {
+    margin: 10px 0 10px 0;
+}
+
+#content #victim_page #left_col {
+    width: 75%;
+    float: left;
+}
+
+#content #victim_page #right_col {
+    width: 25%;
+    float: right;
+}
+
+#cleaner {
+    clear: both;
+}
+
+#back_button #back {
+    display: block;
+    background-image: url('images/arrows/go_back.png');
+    height: 128px;
+    width: 128px;
+}
