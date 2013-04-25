@@ -1,8 +1,12 @@
 #victim_memorial {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 18px;
+font-size: 18px;
+background-image:url(/victim_memorial/images/blackbg.png);
+background-repeat: no-repeat;
+height:100%;
+margin-top:-23px;
+padding-top:23px;
+font-family:'Monotype Corsiva','Apple Chancery','ITC Zapf Chancery','URW Chancery L',cursive;
 }
-
 
 #prev {
 float: left;
@@ -35,7 +39,7 @@ background-image: url('images/arrows/next_arrow.png');
 
 #victim_memorial #victim_nav li {
     text-align: center;
-    background-color: #fff;
+    color: #fff;
 }
 
 #victim_memorial #victim_header {
@@ -47,7 +51,7 @@ background-image: url('images/arrows/next_arrow.png');
     width: 25%;
 }
 
-    #victim_memorial #victim_sidebar {
+#victim_memorial #victim_sidebar {
         border: solid 1px #CCCCCC;
         overflow-y: scroll;
     }
@@ -57,11 +61,12 @@ background-image: url('images/arrows/next_arrow.png');
     float: right;
 }
 
-    #victim_memorial #victim_info {
+#victim_memorial #victim_info {
         text-align: center; 
+		color:#FFFFFF;
     }
 
-    #victim_memorial #victim_pics #galleria{
+#victim_memorial #victim_pics #galleria{
         margin: 0px auto;
     }
 
@@ -84,14 +89,16 @@ background-image: url('images/arrows/next_arrow.png');
 #victim_memorial #victim_nav li a {
     text-decoration: none;
     display: block;
-    color: #000000;
-    border-bottom: solid 1px #CCCCCC;
+    color: #fff;
+    ~border-bottom: solid 1px #CCCCCC;
     padding: 8px;
+		 font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 #victim_memorial #victim_nav li a:hover {
-    background-color: #EE7600;
+    background-color: #ffffff;
     color: #000;
+		 font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 #victim_memorial label {
@@ -125,7 +132,6 @@ background-image: url('images/arrows/next_arrow.png');
 #victim_page #victim_pics li {
     margin: 10px 0 10px 0;
 }
-
 #content #victim_page #left_col {
     width: 75%;
     float: left;
@@ -145,4 +151,30 @@ background-image: url('images/arrows/next_arrow.png');
     background-image: url('images/arrows/go_back.png');
     height: 128px;
     width: 128px;
+}
+Body{
+width:780px;
+margin:auto;
+background-image:url(http://sa18.state.fl.us/victim_memorial/images/beaches221.jpg);
+background-repeat: no-repeat;
+background-position:center;
+background-color:#0CF;
+}
+.moretext{
+	padding: 0 10px 0 10px;
+	color:#FFF;
+	 font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	 font-size:16px;
+	}
+.indtext{
+text-align:left;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size:16px;
+}
+.navbtn a{
+	font-size:20px;
+	font-weight:bold;
+	color:#FFF;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-decoration:none;
 }

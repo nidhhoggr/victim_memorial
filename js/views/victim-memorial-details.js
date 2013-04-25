@@ -14,7 +14,7 @@ function($, _, Backbone, tpl) {
         render: function(eventName) {
             this.$el.html(this.template(this.model.toJSON()));
             return this.el;
-        },
+        }
     });
 
     return VictimMemorialView;

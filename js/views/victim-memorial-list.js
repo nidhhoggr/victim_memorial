@@ -22,7 +22,7 @@ function($, _, Backbone, tpl) {
             this.$el.append(new VictimMemorialListItemView({
                 model: victim_memorial
             }).render());
-        },
+        }
     });
 
     var VictimMemorialListItemView = Backbone.View.extend({
