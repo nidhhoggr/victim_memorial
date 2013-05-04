@@ -53,10 +53,10 @@ function($, _, Backbone, caroufredsel, prettyPhoto, HeaderView, StartView, Victi
         },
 
         loadMainDom: function() {
-            this.showView('#content', new StartView(), true);
+            this.showView('#content_wrapper', new StartView(), true);
         },
         loadVictimDom: function() {
-            this.showView('#content', new VictimView(), true);
+            this.showView('#content_wrapper', new VictimView(), true);
         },
         victimDetails: function(id) {
            this.before(function() {

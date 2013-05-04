@@ -7,13 +7,11 @@
 	<title>Victim Memorial</title>
   </head>
   <body>
-    <div id="victim_memorial">
-        <div id="content">
-        </div>
-        <script data-main="js/config" src="js/libs/require.min.js"></script>
-    </div>
+      <div id="victim_memorial">
+          <div id="content">
+              <div id="content_wrapper"></div>
+          </div>
+          <script data-main="js/config" src="js/libs/require.min.js"></script>
+      </div>
   </body>
-</html>
-<body>
-</body>
 </html>

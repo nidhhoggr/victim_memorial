@@ -1,11 +1,21 @@
+Body{
+awidth:780px;
+amargin:auto;
+background-image:url(http://sa18.state.fl.us/victim_memorial/images/beaches221.jpg);
+background-repeat: no-repeat;
+background-position:center;
+background-color:#fff;
+}
 #victim_memorial {
 font-size: 18px;
-background-image:url(/victim_memorial/images/blackbg.png);
-background-repeat: no-repeat;
-height:100%;
-margin-top:-23px;
-padding-top:23px;
 font-family:'Monotype Corsiva','Apple Chancery','ITC Zapf Chancery','URW Chancery L',cursive;
+
+}
+#content{
+text-align:center;
+width:780px;
+margin:auto;
+height:100%;
 }
 
 #prev {
@@ -90,7 +100,6 @@ background-image: url('images/arrows/next_arrow.png');
     text-decoration: none;
     display: block;
     color: #fff;
-    ~border-bottom: solid 1px #CCCCCC;
     padding: 8px;
 		 font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -129,6 +138,16 @@ background-image: url('images/arrows/next_arrow.png');
     padding: 6px;
 }
 
+#content_wrapper {
+
+    width: 800px;
+    margin: 0px auto;
+
+    background-image:url(/victim_memorial/images/blackbg.png);
+
+      /* IE 8 */
+}
+
 #victim_page #victim_pics li {
     margin: 10px 0 10px 0;
 }
@@ -152,19 +171,14 @@ background-image: url('images/arrows/next_arrow.png');
     height: 128px;
     width: 128px;
 }
-Body{
-width:780px;
-margin:auto;
-background-image:url(http://sa18.state.fl.us/victim_memorial/images/beaches221.jpg);
-background-repeat: no-repeat;
-background-position:center;
-background-color:#0CF;
-}
+
+
+
 .moretext{
 	padding: 0 10px 0 10px;
 	color:#FFF;
 	 font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	 font-size:16px;
+	 font-size:17px;
 	}
 .indtext{
 text-align:left;
@@ -177,4 +191,15 @@ font-size:16px;
 	color:#FFF;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-decoration:none;
+}
+
+.navbtn table {
+
+    width: 100%;
+}
+
+
+.navbtn table td {
+    
+    text-align: center;
 }
