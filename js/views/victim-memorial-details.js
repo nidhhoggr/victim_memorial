@@ -44,13 +44,10 @@ function($, _, Backbone, tpl) {
             if(next_id > this.model.collection.length)
                 next_id = 1;
 
-            console.log(this.routeUrl + next_id);
-
             Backbone.history.navigate(
                 this.routeUrl + next_id,
                 {trigger: true, replace: true}
             );
- 
         }
     });
 
