@@ -47,7 +47,7 @@ function($, _, Backbone, caroufredsel, prettyPhoto, HeaderView, StartView, Victi
                 this.showView('#victim_slide', new VictimPictureSlideView({
                     collection: this.victimPictureList
                 }),false);
-                test = $('#foo').caroufredsel({items:3,next:'#next',prev:'#prev'});
+                test = $('#foo').caroufredsel({items:3,next:'#next',prev:'#prev', scroll:{ duration: 1000 }});
                 $("a[rel^='prettyPhoto']").prettyPhoto();
             });
         },

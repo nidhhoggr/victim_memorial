@@ -1,7 +1,5 @@
 Body{
-awidth:780px;
-amargin:auto;
-background-image:url(http://sa18.state.fl.us/victim_memorial/images/beaches221.jpg);
+background-image:url(/victim_memorial/images/beaches2212.jpg);
 background-repeat: no-repeat;
 background-position:center;
 background-color:#fff;
@@ -9,7 +7,7 @@ background-color:#fff;
 #victim_memorial {
 font-size: 18px;
 font-family:'Monotype Corsiva','Apple Chancery','ITC Zapf Chancery','URW Chancery L',cursive;
-
+text-align: center;
 }
 #content{
 text-align:center;
@@ -53,7 +51,7 @@ background-image: url('images/arrows/next_arrow.png');
 }
 
 #victim_memorial #victim_header {
-    padding-top: 5px;
+    padding-top: 10px;
 }
 
 #victim_memorial #left_container {
@@ -74,6 +72,7 @@ background-image: url('images/arrows/next_arrow.png');
 #victim_memorial #victim_info {
         text-align: center; 
 		color:#FFFFFF;
+		font-size: 20px;
     }
 
 #victim_memorial #victim_pics #galleria{
@@ -140,11 +139,11 @@ background-image: url('images/arrows/next_arrow.png');
 
 #content_wrapper {
 
-    width: 800px;
+    width: 792px;
     margin: 0px auto;
 
     background-image:url(/victim_memorial/images/blackbg.png);
-
+	background-repeat: no-repeat;
       /* IE 8 */
 }
 

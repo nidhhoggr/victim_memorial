@@ -305,7 +305,7 @@ if (opts.responsive) {
 			if (typeof opts.items.minimum				!= 'number')	opts.items.minimum				= opts.items.visible;
 			if (typeof opts.scroll.duration				!= 'number')	opts.scroll.duration			= 500;
 			if (typeof opts.scroll.items				== 'undefined') opts.scroll.items 				= (opts.items.visibleConf.variable || opts.items.filter != '*') ? 'visible' : opts.items.visible;
-
+			
 			opts.auto		= go_getNaviObject($tt0, opts.auto, 'auto');
 			opts.prev		= go_getNaviObject($tt0, opts.prev);
 			opts.next		= go_getNaviObject($tt0, opts.next);
