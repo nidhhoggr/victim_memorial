@@ -3,17 +3,22 @@ background-image:url(/victim_memorial/images/beaches2212.jpg);
 background-repeat: no-repeat;
 background-position:center;
 background-color:#fff;
+height:100%;
+min-height:100%;
 }
 #victim_memorial {
 font-size: 18px;
 font-family:'Monotype Corsiva','Apple Chancery','ITC Zapf Chancery','URW Chancery L',cursive;
 text-align: center;
+height:100%;
+min-height:100%;
 }
 #content{
 text-align:center;
 width:780px;
 margin:auto;
 height:100%;
+min-height:100%;
 }
 
 #prev {
@@ -138,13 +143,14 @@ background-image: url('images/arrows/next_arrow.png');
 }
 
 #content_wrapper {
-
     width: 792px;
     margin: 0px auto;
-
+	padding-top:10px;
     background-image:url(/victim_memorial/images/blackbg.png);
+	height:100%;
 	background-repeat: no-repeat;
       /* IE 8 */
+	  min-height:100%;
 }
 
 #victim_page #victim_pics li {
@@ -176,8 +182,9 @@ background-image: url('images/arrows/next_arrow.png');
 .moretext{
 	padding: 0 10px 0 10px;
 	color:#FFF;
-	 font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	 font-size:17px;
+	font-family: "Berylium", Berylium, Arial, sans-serif;
+	font-size:19px;
+	font-style:italic;
 	}
 .indtext{
 text-align:left;
